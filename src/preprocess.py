@@ -42,7 +42,7 @@ def vectorize_and_split(X, y):
 
 
 if __name__ == "__main__":
-    X, y = load_and_prepare_data("C:/Users/AB/projects/nlp-ml-pipeline/data/raw/sms_spam.tsv")
+    X, y = load_and_prepare_data("data/raw/sms_spam.tsv")
     X_train, X_test, y_train, y_test = vectorize_and_split(X, y)
 
     print("Train size:", X_train.shape)
